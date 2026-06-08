@@ -26,6 +26,6 @@ dist-ssr
 
 
 # node-module
-client/node_modules/
-server/node_modules/
-node_modules/
+../ballondor/client/node_modules/
+../ballondor/server/node_modules/
+../ballondor/node_modules/

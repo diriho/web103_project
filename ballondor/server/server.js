@@ -6,8 +6,7 @@ console.log(ballonDorWinners);
 
 // initialize express app
 const app = express();
-app.use('/public', express.static('./public'))
-app.use('/scripts', express.static('./public/scripts'))
+app.use('/public', express.static('./src'))
 
 
 // the home route port
