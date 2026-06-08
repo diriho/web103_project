@@ -1,18 +1,27 @@
 import express from 'express';
 import ballonDorWinners from './data/data.js';
 import { filterByNationality, filterByClub, filterByYearRange, filterByMultipleCriteria } from './data/filter.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+
 
 console.log(ballonDorWinners);
 
 // initialize express app
 const app = express();
-app.use('/public', express.static('./src'))
+app.use(express.static(path.join(__dirname, '../client')));
 
 
 // the home route port
 app.get('/', (req, res) => {
-  res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">Ballon d\'Or Catalogue</h1>')
-})
+  res.sendFile(
+    path.join(__dirname, '../client/index.html')
+  );
+});
 
 // route for getting the list of winners
 app.get('/winners', (req, res) => {
