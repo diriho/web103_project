@@ -32,7 +32,7 @@ The following **additional** features are implemented
 **Note: please be sure to 
 
 Here's a walkthrough of implemented required features:
-![Video Walkthrough](web103_project/ballondor/client/src/assets/website_walkthrough.gif)
+<img src="./ballondor/client/src/assets/website_walkthrough.gif" width="400" alt="App Walkthrough Demo">
 
 
 ## Notes
