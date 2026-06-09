@@ -32,8 +32,10 @@ The following **additional** features are implemented
 **Note: please be sure to 
 
 Here's a walkthrough of implemented required features:
-<img src="./ballondor/client/src/assets/website_walkthrough.gif" width="400" alt="App Walkthrough Demo">
 
+<p align="center">
+  <img src="./ballondor/client/src/assets/website_walkthrough.gif" alt="App Walkthrough Demo">
+</p>
 
 ## Notes
 
