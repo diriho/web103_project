@@ -1,6 +1,6 @@
-// list of ballon d'or winners as JSON
+// dataset of ballon d'or winners as JSON
 const ballonDorWinners = [
-    { "year": 2025, "player": "Ousmane Dembélé", "nationality": "France", "club": "Paris Saint-Germain F.C." },
+    {"year": 2025, "player": "Ousmane Dembélé", "nationality": "France", "club": "Paris Saint-Germain F.C." },
     {"year":2024,"player":"Rodri","nationality":"Spain","club":"Manchester City"},
     {"year":2023,"player":"Lionel Messi","nationality":"Argentina","club":"Inter Miami"},
     {"year":2022,"player":"Karim Benzema","nationality":"France","club":"Real Madrid"},
